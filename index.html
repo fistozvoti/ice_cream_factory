@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="ice_cream.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="containerOne">
+        <h1>ICE CREAM FACTORY</h1>
+
+        <div class="row">
+            <select class="selectFlavour">
+                <option class="flavours" value="">Select flavour</option>
+                <option class="flavours" value="chocolate">Chocolate</option>
+                <option class="flavours" value="vanilla">Vanilla</option>
+                <option class="flavours" value="strawberry">Strawberry</option>
+            </select>
+        </div>
+        <div class="row">
+            <select class="selectContainer">
+                <option class="containers" value="">Type of Container</option>
+                <option class="containers" value="plainCone">Plain Cone</option>
+                <option class="containers" value="sugarCone">Sugar Cone</option>
+                <option class="containers" value="paperCup">Paper Cup</option>
+            </select>
+        </div>
+        <div class="row">
+            <label class="container" value="crumbedPeanuts">Crumbed Peanuts
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+
+            <label class="container" value="caramalDip">Caramal Dip
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+
+            <label class="container" value="chocolateDip">Chocolate Dip
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+
+            <label class="container" value="smarties">Smarties
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+
+            <label class="container" value="oreos">Oreos
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+
+            <label class="container" value="astros">Astros
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+
+            <button class="buyBtn">Buy</button>
+        </div>
+
+        <div class="titleForTotal">
+            <h1>Total Cost:</h1>
+        </div>
+        <div class="vl"></div>
+
+    </div>
+</body>
+<script src="ice_cream_factory.js"></script>
+<script src="ice_cream-DOM.js"></script>
+
+</html>
